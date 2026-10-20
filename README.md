@@ -16,6 +16,20 @@ the following resources are a great place to start:
 [chapter]: https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring
 [progit]: https://git-scm.com/book
 
+## About This Standalone Edition
+
+- **Main repository:** [github/gitignore](https://github.com/github/gitignore)
+- **Based on version:** upstream commit `0e5d690153ca3da8a4a1aef2d053406f408f531c` (snapshotted 2026-10-20; upstream HEAD dated 2026-10-02)
+- **This edition:** v1.1.0 (v1.0.0 = clean baseline of the upstream version above)
+- **What was done:** Converted from a fork into a standalone repository (fresh history, baseline commit), then enhanced in place by Syed Mujtaba Abbas.
+- **Enhancements in this edition (v1.1.0):**
+  - This About section, with full upstream credit and version provenance
+  - `ENHANCEMENTS.md` — per-version changelog of everything changed in this edition
+  - `.github/dependabot.yml` — weekly GitHub Actions dependency updates
+  - `.markdownlint.json` + `.github/workflows/markdown-check.yml` — markdown linting automation for contributions (upstream stale workflow kept as-is)
+  - `.editorconfig` — standard editor settings (UTF-8, LF, 2-space indent)
+- **Credit & licence:** All original work belongs to GitHub and the upstream contributors. Licence is preserved unchanged — see `LICENSE` (CC0-1.0). This edition adds the enhancements listed above only.
+
 ## Folder structure
 
 We support a collection of templates, organized in this way:
